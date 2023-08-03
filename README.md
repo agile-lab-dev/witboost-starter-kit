@@ -1,92 +1,75 @@
-# witboost.Mesh.OpenSource
+<p align="center">
+    <a href="https://www.agilelab.it/witboost">
+        <img src="docs/img/witboost_logo.svg" alt="witboost" width=600 >
+    </a>
+</p>
 
+Designed by [Agile Lab](https://www.agilelab.it/), witboost is a versatile platform that addresses a wide range of sophisticated data engineering challenges. It enables businesses to discover, enhance, and productize their data, fostering the creation of automated data platforms that adhere to the highest standards of data governance. Want to know more about witboost? Check it out [here](https://www.agilelab.it/witboost) or [contact us!](https://www.agilelab.it/contacts)
 
+This repository is a guide to our Starter Kit meant to showcase witboost's integration capabilities and provide a "batteries-included" product.
 
-## Getting started
+# Witboost Starter Kit
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- [Provisioners](#provisioners)
+- [Templates](#templates)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Provisioners
 
-## Add your files
+### What's a Specific Provisioner?
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+A Specific Provisioner is a microservice which is in charge of deploying components that use a specific technology. When the deployment of a Data Product is triggered, the platform generates it descriptor and orchestrates the deployment of every component contained in the Data Product. For every such component the platform knows which Specific Provisioner is responsible for its deployment, and can thus send a provisioning request with the descriptor to it so that the Specific Provisioner can perform whatever operation is required to fulfill this request and report back the outcome to the platform.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/AgileFactory/Witboost.Mesh/witboost.mesh.opensource.git
-git branch -M master
-git push -uf origin master
-```
+You can learn more about how the Specific Provisioners fit in the broader picture [here](https://docs.witboost.agilelab.it/docs/p2_arch/p1_intro/#deploy-flow).
 
-## Integrate with your tools
+### Available Specific Provisioners and Scaffolds
 
-- [ ] [Set up project integrations](https://gitlab.com/AgileFactory/Witboost.Mesh/witboost.mesh.opensource/-/settings/integrations)
+We provide two main kinds of projects:
+- Provisioners: these are actual implementations for a specific technology that you can customize to suit your needs
+- Scaffolds: these are projects that you can start from if you want to implement a provisioner yourself
 
-## Collaborate with your team
+| Kind        | Project                                                                                  | Technology | Supported components      | Notes |
+|-------------|------------------------------------------------------------------------------------------|------------|---------------------------|-------|
+| Provisioner | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) | Snowflake  | Output Port, Storage Area |       |
+| Scaffold    | [Terraform Scaffold](https://github.com/agile-lab-dev/witboost-terraform-scaffold)       | Terraform  | NA                        |       |
+| Scaffold    | [Python Scaffold](https://github.com/agile-lab-dev/witboost-python-scaffold)             | Python     | NA                        |       |
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Templates
 
-## Test and Deploy
+### What's a Template?
 
-Use the built-in continuous integration in GitLab.
+A Template is a tool that helps create components inside a Data Mesh. Templates help establish a standard across the organization. This standard leads to easier understanding, management and maintenance of components. Templates provide a predefined structure so that developers don't have to start from scratch each time, which leads to faster development and allows them to focus on other aspects, such as testing and business logic.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+For more information, please refer to the [official documentation](https://docs.witboost.agilelab.it/docs/p1_user/p6_advanced/p6_1_templates/#getting-started).
 
-***
+### Available Templates
 
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+| Component    | Project                                                                                             | Technology | Specific Provisioner                                                                      | Notes |
+|--------------|-----------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------|-------|
+| Data Product | [Data Product](https://github.com/agile-lab-dev/witboost-data-product-template)                     | NA         | NA                                                                                        |       |
+| Output Port  | [Snowflake Output Port](https://github.com/agile-lab-dev/witboost-snowflake-output-port-template)   | Snowflake  | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner)  |       |
+| Storage Area | [Snowflake Storage Area](https://github.com/agile-lab-dev/witboost-snowflake-storage-area-template) | Snowflake  | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner)  |       |
+| Workload     | [DBT Workload](https://github.com/agile-lab-dev/witboost-dbt-workload-template)                     | DBT        | NA                                                                                        |       |
 
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This project is available under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0); see [LICENSE](LICENSE) for full details.
+
+## About us
+
+<p align="center">
+    <a href="https://www.agilelab.it">
+        <img src="docs/img/agilelab_logo.jpg" alt="Agile Lab" width=600>
+    </a>
+</p>
+
+Agile Lab creates value for its Clients in data-intensive environments through customizable solutions to establish performance driven processes, sustainable architectures, and automated platforms driven by data governance best practices.
+
+Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
+
+[Contact us](https://www.agilelab.it/contacts) or follow us on:
+- [LinkedIn](https://www.linkedin.com/company/agile-lab/)
+- [Instagram](https://www.instagram.com/agilelab_official/)
+- [YouTube](https://www.youtube.com/channel/UCTWdhr7_4JmZIpZFhMdLzAA)
+- [Twitter](https://twitter.com/agile__lab)
+
+
