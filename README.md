@@ -1,12 +1,14 @@
+<br/>
 <p align="center">
     <a href="https://www.agilelab.it/witboost">
         <img src="docs/img/witboost_logo.svg" alt="witboost" width=600 >
     </a>
 </p>
+<br/>
 
-Designed by [Agile Lab](https://www.agilelab.it/), witboost is a versatile platform that addresses a wide range of sophisticated data engineering challenges. It enables businesses to discover, enhance, and productize their data, fostering the creation of automated data platforms that adhere to the highest standards of data governance. Want to know more about witboost? Check it out [here](https://www.agilelab.it/witboost) or [contact us!](https://www.agilelab.it/contacts)
+Designed by [Agile Lab](https://www.agilelab.it/), Witboost is a versatile platform that addresses a wide range of sophisticated data engineering challenges. It enables businesses to discover, enhance, and productize their data, fostering the creation of automated data platforms that adhere to the highest standards of data governance. Want to know more about Witboost? Check it out [here](https://www.agilelab.it/witboost) or [contact us!](https://www.agilelab.it/contacts)
 
-This repository is a guide to our Starter Kit meant to showcase witboost's integration capabilities and provide a "batteries-included" product.
+This repository is a guide to our Starter Kit meant to showcase Witboost's integration capabilities and provide a "batteries-included" product.
 
 # Witboost Starter Kit
 
@@ -27,11 +29,12 @@ We provide two main kinds of projects:
 - Provisioners: these are actual implementations for a specific technology that you can customize to suit your needs
 - Scaffolds: these are projects that you can start from if you want to implement a provisioner yourself
 
-| Kind        | Project                                                                                  | Technology | Supported components      | Notes |
-|-------------|------------------------------------------------------------------------------------------|------------|---------------------------|-------|
-| Provisioner | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) | Snowflake  | Output Port, Storage Area |       |
-| Scaffold    | [Terraform Scaffold](https://github.com/agile-lab-dev/witboost-terraform-scaffold)       | Terraform  | NA                        |       |
-| Scaffold    | [Python Scaffold](https://github.com/agile-lab-dev/witboost-python-scaffold)             | Python     | NA                        |       |
+| Kind        | Project                                                                                  | Technology   | Supported components      | Notes |
+|-------------|------------------------------------------------------------------------------------------|--------------|---------------------------|-------|
+| Provisioner | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)           | Airflow/MWAA | Workload                  |       |
+| Provisioner | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) | Snowflake    | Output Port, Storage Area |       |
+| Scaffold    | [Python Scaffold](https://github.com/agile-lab-dev/witboost-python-scaffold)             | Python       | NA                        |       |
+| Scaffold    | [Terraform Scaffold](https://github.com/agile-lab-dev/witboost-terraform-scaffold)       | Terraform    | NA                        |       |
 
 ## Templates
 
@@ -43,12 +46,13 @@ For more information, please refer to the [official documentation](https://docs.
 
 ### Available Templates
 
-| Component    | Project                                                                                             | Technology | Specific Provisioner                                                                      | Notes |
-|--------------|-----------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------|-------|
-| Data Product | [Data Product](https://github.com/agile-lab-dev/witboost-data-product-template)                     | NA         | NA                                                                                        |       |
-| Output Port  | [Snowflake Output Port](https://github.com/agile-lab-dev/witboost-snowflake-output-port-template)   | Snowflake  | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner)  |       |
-| Storage Area | [Snowflake Storage Area](https://github.com/agile-lab-dev/witboost-snowflake-storage-area-template) | Snowflake  | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner)  |       |
-| Workload     | [DBT Workload](https://github.com/agile-lab-dev/witboost-dbt-workload-template)                     | DBT        | NA                                                                                        |       |
+| Component    | Project                                                                                             | Technology   | Specific Provisioner                                                                     | Notes |
+|--------------|-----------------------------------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------|-------|
+| Data Product | [Data Product](https://github.com/agile-lab-dev/witboost-data-product-template)                     | NA           | No Specific Provisioner needed                                                           |       |
+| Output Port  | [Snowflake Output Port](https://github.com/agile-lab-dev/witboost-snowflake-output-port-template)   | Snowflake    | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) |       |
+| Storage Area | [Snowflake Storage Area](https://github.com/agile-lab-dev/witboost-snowflake-storage-area-template) | Snowflake    | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) |       |
+| Workload     | [DBT Workload](https://github.com/agile-lab-dev/witboost-dbt-workload-template)                     | DBT          | No Specific Provisioner needed                                                           |       |
+| Workload     | [MWAA Workload](https://github.com/agile-lab-dev/witboost-mwaa-workload-template)                   | Airflow/MWAA | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)           |       |
 
 ## License
 
@@ -56,15 +60,17 @@ This project is available under the [Apache License, Version 2.0](https://openso
 
 ## About us
 
+<br/>
 <p align="center">
     <a href="https://www.agilelab.it">
-        <img src="docs/img/agilelab_logo.jpg" alt="Agile Lab" width=600>
+        <img src="docs/img/agilelab_logo.svg" alt="Agile Lab" width=600>
     </a>
 </p>
+<br/>
 
 Agile Lab creates value for its Clients in data-intensive environments through customizable solutions to establish performance driven processes, sustainable architectures, and automated platforms driven by data governance best practices.
 
-Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
+Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology-agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
 
 [Contact us](https://www.agilelab.it/contacts) or follow us on:
 - [LinkedIn](https://www.linkedin.com/company/agile-lab/)
