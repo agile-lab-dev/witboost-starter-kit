@@ -29,12 +29,13 @@ We provide two main kinds of projects:
 - Provisioners: these are actual implementations for a specific technology that you can customize to suit your needs
 - Scaffolds: these are projects that you can start from if you want to implement a provisioner yourself
 
-| Kind        | Project                                                                                  | Technology   | Supported components      | Notes |
-|-------------|------------------------------------------------------------------------------------------|--------------|---------------------------|-------|
-| Provisioner | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)           | Airflow/MWAA | Workload                  |       |
-| Provisioner | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) | Snowflake    | Output Port, Storage Area |       |
-| Scaffold    | [Python Scaffold](https://github.com/agile-lab-dev/witboost-python-scaffold)             | Python       | NA                        |       |
-| Scaffold    | [Terraform Scaffold](https://github.com/agile-lab-dev/witboost-terraform-scaffold)       | Terraform    | NA                        |       |
+| Kind        | Project                                                                                  | Technology                | Supported components      | Notes                                                                                                                                |
+|-------------|------------------------------------------------------------------------------------------|---------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Provisioner | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)           | Scheduling - Airflow/MWAA | Workload                  |                                                                                                                                      |
+| Provisioner | [Hasura SP](https://github.com/agile-lab-dev/witboost-hasura-specific-provisioner)       | GraphQL - Hasura          | Output Port               | Needs the [Hasura Authentication Webhook and Role Mapper](https://github.com/agile-lab-dev/witboost-hasura-auth-webhook-role-mapper) |
+| Provisioner | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) | DWH - Snowflake           | Output Port, Storage Area |                                                                                                                                      |
+| Scaffold    | [Python Scaffold](https://github.com/agile-lab-dev/witboost-python-scaffold)             | Generic - Python          | NA                        |                                                                                                                                      |
+| Scaffold    | [Terraform Scaffold](https://github.com/agile-lab-dev/witboost-terraform-scaffold)       | Generic - Terraform       | NA                        |                                                                                                                                      |
 
 ## Templates
 
@@ -46,13 +47,14 @@ For more information, please refer to the [official documentation](https://docs.
 
 ### Available Templates
 
-| Component    | Project                                                                                             | Technology   | Specific Provisioner                                                                     | Notes |
-|--------------|-----------------------------------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------|-------|
-| Data Product | [Data Product](https://github.com/agile-lab-dev/witboost-data-product-template)                     | NA           | No Specific Provisioner needed                                                           |       |
-| Output Port  | [Snowflake Output Port](https://github.com/agile-lab-dev/witboost-snowflake-output-port-template)   | Snowflake    | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) |       |
-| Storage Area | [Snowflake Storage Area](https://github.com/agile-lab-dev/witboost-snowflake-storage-area-template) | Snowflake    | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) |       |
-| Workload     | [DBT Workload](https://github.com/agile-lab-dev/witboost-dbt-workload-template)                     | DBT          | No Specific Provisioner needed                                                           |       |
-| Workload     | [MWAA Workload](https://github.com/agile-lab-dev/witboost-mwaa-workload-template)                   | Airflow/MWAA | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)           |       |
+| Component    | Project                                                                                             | Technology                | Specific Provisioner                                                                     | Notes |
+|--------------|-----------------------------------------------------------------------------------------------------|---------------------------|------------------------------------------------------------------------------------------|-------|
+| Data Product | [Data Product](https://github.com/agile-lab-dev/witboost-data-product-template)                     | NA                        | No Specific Provisioner needed                                                           |       |
+| Output Port  | [Hasura Output Port](https://github.com/agile-lab-dev/witboost-hasura-output-port-template)         | GraphQL - Hasura          | [Hasura SP](https://github.com/agile-lab-dev/witboost-hasura-specific-provisioner)       |       |
+| Output Port  | [Snowflake Output Port](https://github.com/agile-lab-dev/witboost-snowflake-output-port-template)   | DWH - Snowflake           | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) |       |
+| Storage Area | [Snowflake Storage Area](https://github.com/agile-lab-dev/witboost-snowflake-storage-area-template) | DWH - Snowflake           | [Snowflake SP](https://github.com/agile-lab-dev/witboost-snowflake-specific-provisioner) |       |
+| Workload     | [DBT Workload](https://github.com/agile-lab-dev/witboost-dbt-workload-template)                     | Data processing - DBT     | No Specific Provisioner needed                                                           |       |
+| Workload     | [MWAA Workload](https://github.com/agile-lab-dev/witboost-mwaa-workload-template)                   | Scheduling - Airflow/MWAA | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)           |       |
 
 ## License
 
@@ -77,5 +79,3 @@ Since 2014 we have implemented 100+ successful Elite Data Engineering initiative
 - [Instagram](https://www.instagram.com/agilelab_official/)
 - [YouTube](https://www.youtube.com/channel/UCTWdhr7_4JmZIpZFhMdLzAA)
 - [Twitter](https://twitter.com/agile__lab)
-
-
