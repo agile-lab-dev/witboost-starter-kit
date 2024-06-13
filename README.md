@@ -66,6 +66,20 @@ For more information, please refer to the [official documentation](https://docs.
 | <img src="./docs/img/dbt.png" width="60">        | Workload     | [DBT Workload](https://github.com/agile-lab-dev/witboost-dbt-workload-template)                             | Data processing - DBT             | No Specific Provisioner needed                                                             |       |
 | <img src="./docs/img/airflow.png" width="60">    | Workload     | [MWAA Workload](https://github.com/agile-lab-dev/witboost-mwaa-workload-template)                           | Scheduling - Airflow/MWAA         | [MWAA SP](https://github.com/agile-lab-dev/witboost-mwaa-specific-provisioner)             |       |
 
+
+### Other integrations
+
+In this section you can find a gallery of possible integrations, they are not production ready as the others, but anyway a good starting point to address specific use cases and to understand the Witboost possibilities
+
+
+| Tech                                             | Kind        | Project                                                                                    | Scope                         | Supported components      | Notes                                                                                                                                |
+|--------------------------------------------------|-------------|--------------------------------------------------------------------------------------------|-------------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="./docs/img/icepanel.png" width="100">         | Adapter    | [Ice Panel](https://github.com/agile-lab-dev/IcePanelC4-Adapter)                             | C4 Architecture Diagram                        | Data Product             |   Need an IcePanel license       |
+
+
+
+
+
 ## License
 
 This project is available under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0); see [LICENSE](LICENSE) for full details.
