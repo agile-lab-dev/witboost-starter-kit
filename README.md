@@ -77,6 +77,7 @@ In this section you can find a gallery of possible integrations, they are not pr
 | Tech                                             | Kind        | Project                                                                                    | Scope                         | Supported components      | Notes                                                                                                                                |
 |--------------------------------------------------|-------------|--------------------------------------------------------------------------------------------|-------------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | <img src="./docs/img/icepanel.png" width="100">         | Adapter    | [Ice Panel](https://github.com/agile-lab-dev/IcePanelC4-Adapter)                             | C4 Architecture Diagram                        | Data Product             |   Need an IcePanel license       |
+| <img src="./docs/img/tonic.png" width="100">         | Adapter    | [Tonic.ai](https://github.com/agile-lab-dev/TonicAI-Adapter)                             | Synthetic Data Generation                     | Output Port              |   Need a Tonic.ai license       |
 
 
 
