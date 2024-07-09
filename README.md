@@ -14,6 +14,7 @@ This repository is a guide to our Starter Kit meant to showcase Witboost's integ
 
 - [Provisioners](#provisioners)
 - [Templates](#templates)
+- [Practice Shaper Presets](#practice-shaper-presets)
 
 ## Provisioners
 
@@ -83,8 +84,21 @@ In this section you can find a gallery of possible integrations, they are not pr
 | <img src="./docs/img/tonic.png" width="100">         | Adapter    | [Tonic.ai](https://github.com/agile-lab-dev/TonicAI-Adapter)                             | Synthetic Data Generation                     | Output Port              |   Need a Tonic.ai license       |
 | <img src="./docs/img/rdf.png" width="100">         | Adapter    | [DCAT - OWL - RDF](https://github.com/agile-lab-dev/DCAT-OWL-Adapter)                             | Data Catalog                     | Output Port              |   Need a RDF Triple Store endpoint       |
 
+## Practice Shaper Presets
 
+### What's the Practice Shaper?
 
+The **Practice Shaper** is the main and most impactful Witboost setting that models entities (domains, systems, components, templates) as nodes of a fully-configurable **property graph**.
+
+This enables data-oriented organizations to shape Witboost based on their unique use cases, structure, and needs.
+
+Thanks to the Practice Shaper, a company can approach any project scenario in data (**Data Landscape**), such as Data Mesh, Business Intelligence, Machine Learning and others, by defining which practices are enabled and regulated, with the possibility to define technological and methodological guardrails.
+
+Refer to the [Witboost documentation](https://docs.witboost.com) to learn more about Practice Shaper and Data Landscapes.
+
+### Available Presets
+
+The [Practice Shaper Presets repository](https://github.com/agile-lab-dev/witboost-practice-shaper-presets) provides some ready-to-import Data Landscapes, allowing organizations to quickly set up and customize their witboost environment to suit specific business needs.
 
 
 ## License
