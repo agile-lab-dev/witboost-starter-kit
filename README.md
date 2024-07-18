@@ -78,11 +78,12 @@ For more information, please refer to the [official documentation](https://docs.
 In this section you can find a gallery of possible integrations, they are not production ready as the others, but anyway a good starting point to address specific use cases and to understand the Witboost possibilities
 
 
-| Tech                                             | Kind        | Project                                                                                    | Scope                         | Supported components      | Notes                                                                                                                                |
-|--------------------------------------------------|-------------|--------------------------------------------------------------------------------------------|-------------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="./docs/img/icepanel.png" width="100">         | Adapter    | [Ice Panel](https://github.com/agile-lab-dev/IcePanelC4-Adapter)                             | C4 Architecture Diagram                        | Data Product             |   Need an IcePanel license       |
-| <img src="./docs/img/tonic.png" width="100">         | Adapter    | [Tonic.ai](https://github.com/agile-lab-dev/TonicAI-Adapter)                             | Synthetic Data Generation                     | Output Port              |   Need a Tonic.ai license       |
-| <img src="./docs/img/rdf.png" width="100">         | Adapter    | [DCAT - OWL - RDF](https://github.com/agile-lab-dev/DCAT-OWL-Adapter)                             | Data Catalog                     | Output Port              |   Need a RDF Triple Store endpoint       |
+| Tech                                            | Kind    | Project                                                                             | Scope                     | Supported components | Notes                            |
+|-------------------------------------------------|---------|-------------------------------------------------------------------------------------|---------------------------|----------------------|----------------------------------|
+| <img src="./docs/img/icepanel.png" width="100"> | Adapter | [Ice Panel](https://github.com/agile-lab-dev/IcePanelC4-Adapter)                    | C4 Architecture Diagram   | Data Product         | Need an IcePanel license         |
+| <img src="./docs/img/tonic.png" width="100">    | Adapter | [Tonic.ai](https://github.com/agile-lab-dev/TonicAI-Adapter)                        | Synthetic Data Generation | Output Port          | Need a Tonic.ai license          |
+| <img src="./docs/img/rdf.png" width="100">      | Adapter | [DCAT - OWL - RDF](https://github.com/agile-lab-dev/DCAT-OWL-Adapter)               | Data Catalog              | Output Port          | Need a RDF Triple Store endpoint |
+| <img src="./docs/img/gooddata.png" width="100"> | Adapter | [GoodData](https://github.com/agile-lab-dev/witboost-gooddata-specific-provisioner) | Analytics                 | Output Port          | Need a GoodData license          |
 
 ## Practice Shaper Presets
 
