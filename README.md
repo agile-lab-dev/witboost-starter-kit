@@ -12,11 +12,12 @@ This repository is a guide to our Starter Kit meant to showcase Witboost's integ
 
 # Witboost Starter Kit
 
-- [Adapters](#adapters)
+- [Tech Adapters](#tech-adapters)
 - [Templates](#templates)
+- [Other Integrations](#other-integrations)
 - [Practice Shaper Presets](#practice-shaper-presets)
 
-## Adapters
+## Tech Adapters
 
 ### What's a Tech Adapter?
 
@@ -59,7 +60,7 @@ For more information, please refer to the [official documentation](https://docs.
 
 ### Available Templates
 
-| Tech                                              | Component    | Project                                                                                                      | Scope                              | Specific Provisioner                                                                                                      | Notes                                                                                                                                    |
+| Tech                                              | Component    | Project                                                                                                      | Scope                              | Tech Adapter                                                                                                              | Notes                                                                                                                                    |
 |---------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | <img src="./docs/img/dp.png" width="50">          | Data Product | [Data Product](https://github.com/agile-lab-dev/witboost-data-product-template)                              | NA                                 | No Tech Adapter needed                                                                                                    |                                                                                                                                          |
 | <img src="./docs/img/adls.png" width="50">        | Storage Area | [Azure ADLS Storage Area](https://github.com/agile-lab-dev/witboost-azure-adls-storage-area-template)        | Data Lake Storage - Azure          | [Azure ADLS Storage Area Adapter](https://github.com/agile-lab-dev/witboost-azure-adls-storage-area-specific-provisioner) |                                                                                                                                          |
@@ -78,10 +79,13 @@ For more information, please refer to the [official documentation](https://docs.
 | <img src="./docs/img/datafactory.png" width="60"> | Workload     | [Azure Data Factory Workload](https://github.com/agile-lab-dev/witboost-azure-datafactory-workload-template) | ETL - Azure Data Factory           | [Azure Data Factory Adapter](https://github.com/agile-lab-dev/witboost-azure-datafactory-specific-provisioner)            |                                                                                                                                          |
 
 
-### Other integrations
+### Templates Gallery
 
-In this section you can find a gallery of possible integrations. They are not production ready as others, but are in any way a good starting point to address specific use cases and to understand the Witboost possibilities
+Looking to build your own template? Check out the [Templates Gallery](https://github.com/agile-lab-dev/witboost-templates-gallery), which contains howtos and practical examples to kickstart the process.
 
+## Other Integrations
+
+In this section you can find a list of possible integrations. They are not as production ready as the ones above, but are in any way a good starting point to address specific use cases and to understand Witboost capabilities.
 
 | Tech                                            | Kind         | Project                                                                             | Scope                     | Supported components | Notes                              |
 |-------------------------------------------------|--------------|-------------------------------------------------------------------------------------|---------------------------|----------------------|------------------------------------|
@@ -105,7 +109,6 @@ Refer to the [Witboost documentation](https://docs.witboost.com) to learn more a
 ### Available Presets
 
 The [Practice Shaper Presets repository](https://github.com/agile-lab-dev/witboost-practice-shaper-presets) provides some ready-to-import Data Landscapes, allowing organizations to quickly set up and customize their witboost environment to suit specific business needs.
-
 
 ## License
 
