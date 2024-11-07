@@ -132,23 +132,15 @@ The [Practice Shaper Presets repository](https://github.com/agile-lab-dev/witboo
 
 This project is available under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0); see [LICENSE](LICENSE) for full details.
 
-## About us
+## About Witboost
 
-<br/>
-<p align="center">
-    <a href="https://www.agilelab.it">
-        <img src="docs/img/agilelab_logo.svg" alt="Agile Lab" width=600>
-    </a>
-</p>
-<br/>
+[Witboost](https://witboost.com/) is a cutting-edge Data Experience platform, that streamlines complex data projects across various platforms, enabling seamless data production and consumption. This unified approach empowers you to fully utilize your data without platform-specific hurdles, fostering smoother collaboration across teams.
 
-Agile Lab creates value for its Clients in data-intensive environments through customizable solutions to establish performance driven processes, sustainable architectures, and automated platforms driven by data governance best practices.
+It seamlessly blends business-relevant information, data governance processes, and IT delivery, ensuring technically sound data projects aligned with strategic objectives. Witboost facilitates data-driven decision-making while maintaining data security, ethics, and regulatory compliance.
 
-Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology-agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
+Moreover, Witboost maximizes data potential through automation, freeing resources for strategic initiatives. Apply your data for growth, innovation and competitive advantage.
 
-[Contact us](https://www.agilelab.it/contacts) or follow us on:
+[Contact us](https://witboost.com/contact-us) or follow us on:
 
-- [LinkedIn](https://www.linkedin.com/company/agile-lab/)
-- [Instagram](https://www.instagram.com/agilelab_official/)
-- [YouTube](https://www.youtube.com/channel/UCTWdhr7_4JmZIpZFhMdLzAA)
-- [Twitter](https://twitter.com/agile__lab)
+- [LinkedIn](https://www.linkedin.com/showcase/witboost/)
+- [YouTube](https://www.youtube.com/@witboost-platform)
