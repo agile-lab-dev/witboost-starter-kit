@@ -17,6 +17,7 @@ This repository is a guide to our Starter Kit meant to showcase Witboost's integ
 - [Data Catalog Plugins](#data-catalog-plugins)
 - [Other Integrations](#other-integrations)
 - [Practice Shaper Presets](#practice-shaper-presets)
+- [Access Control Request Template](#access-control-request-template)
 
 ## Tech Adapters
 
@@ -130,6 +131,16 @@ Refer to the [Witboost documentation](https://docs.witboost.com) to learn more a
 ### Available Presets
 
 The [Practice Shaper Presets repository](https://github.com/agile-lab-dev/witboost-practice-shaper-presets) provides some ready-to-import Data Landscapes, allowing organizations to quickly set up and customize their witboost environment to suit specific business needs.
+
+## Access Control Request Template
+
+The **Access Control Request Template** is the mechanism of Witboost used to configure the information required by the users when requesting access to consumables on the Marketplace.
+
+Refer to the [Witboost documentation](https://docs.witboost.com/docs/p3_tech/p4_access_control/accessRequestTemplate) to learn more about Access Control Request Templates.
+
+### Available Access control request templates
+
+Check out the [Access Control Request Template repository](https://github.com/agile-lab-dev/witboost-default-access-control-request-template) which provides the base set of access control request templates for your platform that you can customize further.
 
 ## License
 
