@@ -19,6 +19,11 @@ This repository is a guide to our Starter Kit meant to showcase Witboost's integ
 - [Practice Shaper Presets](#practice-shaper-presets)
 - [Access Control Request Template](#access-control-request-template)
 
+
+
+</br>
+</br>
+
 ## Tech Adapters
 
 ### What's a Tech Adapter?
@@ -55,6 +60,11 @@ We provide two main kinds of projects:
 | <img src="./docs/img/python.png" width="45">       | Scaffold     | [Python Scaffold](https://github.com/agile-lab-dev/witboost-python-scaffold)                                                | Generic - Python                         | NA                        |                                                                                                                                      |
 | <img src="./docs/img/terraform.png" width="40">    | Scaffold     | [Terraform Scaffold](https://github.com/agile-lab-dev/witboost-terraform-scaffold)                                          | Generic - Terraform                      | NA                        |                                                                                                                                      |
 
+
+</br>
+</br>
+
+
 ## Templates
 
 ### What's a Template?
@@ -90,6 +100,11 @@ For more information, please refer to the [official documentation](https://docs.
 Looking to build your own template? Check out the [Templates Gallery](https://github.com/agile-lab-dev/witboost-templates-gallery), which contains howtos and practical examples to kickstart the process.
 
 
+
+</br>
+</br>
+
+
 ## Data Catalog Plugins
 
 ### What's a Data Catalog Plugin?
@@ -116,6 +131,10 @@ In this section you can find a list of possible integrations. They are not as pr
 | <img src="./docs/img/rdf.png" width="100">      | Tech Adapter | [DCAT - OWL - RDF](https://github.com/agile-lab-dev/DCAT-OWL-Adapter)               | Data Catalog              | Output Port          | Needs an RDF Triple Store endpoint |
 | <img src="./docs/img/gooddata.png" width="100"> | Tech Adapter | [GoodData](https://github.com/agile-lab-dev/witboost-gooddata-specific-provisioner) | Analytics                 | Output Port          | Needs a GoodData license           |
 
+
+</br>
+</br>
+
 ## Practice Shaper Presets
 
 ### What's the Practice Shaper?
@@ -123,6 +142,10 @@ In this section you can find a list of possible integrations. They are not as pr
 The **Practice Shaper** is the main and most impactful Witboost setting that models entities (domains, systems, components, templates) as nodes of a fully-configurable **property graph**.
 
 This enables data-oriented organizations to shape Witboost based on their unique use cases, structure, and needs.
+
+<p align="center">
+<img src="./docs/img/practiceshaper.png" width="300">
+</p>
 
 Thanks to the Practice Shaper, a company can approach any project scenario in data (**Data Landscape**), such as Data Mesh, Business Intelligence, Machine Learning and others, by defining which practices are enabled and regulated, with the possibility to define technological and methodological guardrails.
 
@@ -132,9 +155,19 @@ Refer to the [Witboost documentation](https://docs.witboost.com) to learn more a
 
 The [Practice Shaper Presets repository](https://github.com/agile-lab-dev/witboost-practice-shaper-presets) provides some ready-to-import Data Landscapes, allowing organizations to quickly set up and customize their witboost environment to suit specific business needs.
 
+
+
+</br>
+</br>
+
+
 ## Access Control Request Template
 
 The **Access Control Request Template** is the mechanism of Witboost used to configure the information required by the users when requesting access to consumables on the Marketplace.
+
+<p align="center">
+<img src="./docs/img/accessrequest.png" width="300">
+</p>
 
 Refer to the [Witboost documentation](https://docs.witboost.com/docs/p3_tech/p4_access_control/accessRequestTemplate) to learn more about Access Control Request Templates.
 
@@ -142,9 +175,20 @@ Refer to the [Witboost documentation](https://docs.witboost.com/docs/p3_tech/p4_
 
 Check out the [Access Control Request Template repository](https://github.com/agile-lab-dev/witboost-default-access-control-request-template) which provides the base set of access control request templates for your platform that you can customize further.
 
+
+
+</br>
+</br>
+
+
+
 ## License
 
 This project is available under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0); see [LICENSE](LICENSE) for full details.
+
+
+
+
 
 ## About Witboost
 
