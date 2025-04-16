@@ -122,7 +122,8 @@ To implement an end to end Data Contract mechanism with pluggable architectural 
 | <img src="./docs/img/greatexpectations.png" width="60"> | Batch With Circuit Break     | [Great Expectations Guardian Workload](https://github.com/agile-lab-dev/witboost-great-expectations-guardian-workload-template) | [Great Expectations Guardian Tech Adapter](https://github.com/agile-lab-dev/witboost-great-expectations-guardian-tech-adapter) |
 
 
-
+<br/>
+<br/>
 
 
 ## Data Catalog Plugins
