@@ -111,6 +111,18 @@ Looking to build your own template? Check out the [Templates Gallery](https://gi
 <br/>
 
 
+## Data Contract
+
+To implement an end to end Data Contract mechanism with pluggable architectural pattern, three components are needed.
+* **Data Contract Definition Template**: Useful for the end user to define the contract metadata. It is possible to adopt any data contract specification you want ( [Bitol](https://github.com/bitol-io/open-data-contract-standard) or others ).
+* **Data Contract Guardian**: This is an autonoumous agent that Witboost injects in all the Data COntracts to actively monitor them and raise alerts in case of Contract Drift. The contract guardian can be implemented with ay technology and architectural pattern, providing huge freedom degrees. Guardian autonomy provides infinite scalability and no bottlenecks to the overall solution.
+
+| Tech       | Guardian            | Project                | Notes                          |
+|------------|---------------------|------------------------|--------------------------------|
+| <img src="./docs/img/greatexpectations.png" width="60"> | Batch With Circuit Break     | [Great Expectations Guardian Workload](https://github.com/agile-lab-dev/witboost-great-expectations-guardian-workload-template) | [Great Expectations Guardian Tech Adapter](https://github.com/agile-lab-dev/witboost-great-expectations-guardian-tech-adapter) |
+
+
+
 ## Data Catalog Plugins
 
 ### What's a Data Catalog Plugin?
@@ -124,6 +136,8 @@ You can learn more about how Data Catalog plugins fit in the broader picture [he
 | Tech                                            | Kind                | Project                                                                                                | Scope                   | Notes |
 |-------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------|-------------------------|-------|
 | <img src="./docs/img/collibra.png" width="100"> | Data Catalog Plugin | [Collibra Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-collibra-data-catalog-plugin) | Data Catalog - Collibra |       |
+
+
 
 
 ## Other Integrations
