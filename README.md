@@ -123,6 +123,8 @@ To implement an end to end Data Contract mechanism with pluggable architectural 
 
 
 
+
+
 ## Data Catalog Plugins
 
 ### What's a Data Catalog Plugin?
