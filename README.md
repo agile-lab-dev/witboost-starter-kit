@@ -141,7 +141,8 @@ You can learn more about how Data Catalog plugins fit in the broader picture [he
 | <img src="./docs/img/collibra.png" width="100"> | Data Catalog Plugin | [Collibra Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-collibra-data-catalog-plugin) | Data Catalog - Collibra |       |
 
 
-
+<br/>
+<br/>
 
 ## Other Integrations
 
