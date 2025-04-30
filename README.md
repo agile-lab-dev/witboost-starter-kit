@@ -154,6 +154,7 @@ In this section you can find a list of possible integrations. They are not as pr
 | <img src="./docs/img/tonic.png" width="100">    | Tech Adapter | [Tonic.ai](https://github.com/agile-lab-dev/TonicAI-Adapter)                        | Synthetic Data Generation | Output Port          | Needs a Tonic.ai license           |
 | <img src="./docs/img/rdf.png" width="100">      | Tech Adapter | [DCAT - OWL - RDF](https://github.com/agile-lab-dev/DCAT-OWL-Adapter)               | Data Catalog              | Output Port          | Needs an RDF Triple Store endpoint |
 | <img src="./docs/img/gooddata.png" width="100"> | Tech Adapter | [GoodData](https://github.com/agile-lab-dev/witboost-gooddata-specific-provisioner) | Analytics                 | Output Port          | Needs a GoodData license           |
+| <img src="./docs/img/mcp.png" width="100"> | Extension | [MCP Server](https://github.com/agile-lab-dev/Witboost-MCP) | Agentic AI                 |           | Help to connect third party agents to Witboost           |
 
 
 <br/>
