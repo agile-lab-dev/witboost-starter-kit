@@ -14,6 +14,8 @@ This repository is a guide to our Starter Kit meant to showcase Witboost's integ
 
 - [Tech Adapters](#tech-adapters)
 - [Templates](#templates)
+- [Computational Governance Platform](#computational-governance-platform)
+- [Data Contract](#data-contract)
 - [Data Catalog Plugins](#data-catalog-plugins)
 - [Other Integrations](#other-integrations)
 - [Practice Shaper Presets](#practice-shaper-presets)
@@ -111,6 +113,22 @@ For more information, please refer to the [official documentation](https://docs.
 
 Looking to build your own template? Check out the [Templates Gallery](https://github.com/agile-lab-dev/witboost-templates-gallery), which contains howtos and practical examples to kickstart the process.
 
+
+<br/>
+<br/>
+
+
+## Computational Governance Platform
+
+This module enables a true shift left of data governance within the software and data development processes.
+
+It allows the platform team to create, evolve and enforce computational policies and metrics. That means, data governance is no longer just guidelines, it is enforced automatically through code and are not bypassable.
+
+For more information, please refer to the [official documentation](https://docs.witboost.com/docs/p3_tech/p11_managing_policies/p11_1_overview).
+
+### Policies Gallery
+
+Looking to build your own policies that can be used in Witboost either as-is or as a starting point for your custom policies? Check out the [Policies Gallery](https://github.com/agile-lab-dev/witboost-policies-gallery), which contains howtos and practical examples to kickstart the process.
 
 
 <br/>
