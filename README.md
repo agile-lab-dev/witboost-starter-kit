@@ -160,9 +160,10 @@ You can learn more about how Data Catalog plugins fit in the broader picture [he
 
 ### Available Data Catalog Plugins
 
-| Tech                                            | Kind                | Project                                                                                                | Scope                   | Notes |
-|-------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------|-------------------------|-------|
-| <img src="./docs/img/collibra.png" width="100"> | Data Catalog Plugin | [Collibra Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-collibra-data-catalog-plugin) | Data Catalog - Collibra |       |
+| Tech                                                | Kind                | Project                                                                                                        | Scope                       | Notes |
+|-----------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------|-------|
+| <img src="./docs/img/collibra.png" width="100">     | Data Catalog Plugin | [Collibra Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-collibra-data-catalog-plugin)         | Data Catalog - Collibra     |       |
+| <img src="./docs/img/openmetadata.png" width="100"> | Data Catalog Plugin | [OpenMetadata Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-openmetadata-data-catalog-plugin) | Data Catalog - OpenMetadata |       |
 
 
 <br/>
