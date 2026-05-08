@@ -203,7 +203,7 @@ In this section you can find a list of possible integrations. They are not as pr
 | <img src="./docs/img/rdf.png" width="100">      | Tech Adapter | [DCAT - OWL - RDF](https://github.com/agile-lab-dev/DCAT-OWL-Adapter)               | Data Catalog              | Output Port          | Needs an RDF Triple Store endpoint |
 | <img src="./docs/img/gooddata.png" width="100"> | Tech Adapter | [GoodData](https://github.com/agile-lab-dev/witboost-gooddata-specific-provisioner) | Analytics                 | Output Port          | Needs a GoodData license           |
 | <img src="./docs/img/mcp.png" width="100"> | Extension | [MCP Server](https://github.com/agile-lab-dev/Witboost-MCP) | Agentic AI                 |           | Help to connect third party agents to Witboost           |
-
+| <img src="./docs/img/customurlpicker.png" width="100"> | Dynamic Options Picker | [Business Concepts Picker](https://github.com/agile-lab-dev/witboost-kgm-business-concepts-picker) | Witboost Market Plane                 |           | Show business concepts from the Witboost Knowledge Graph Manager in a drop-down menu inside templates          |
 
 <br/>
 <br/>
