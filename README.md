@@ -90,7 +90,7 @@ We provide two main kinds of projects:
 
 A Template is a tool that helps create components inside Witboost under a specific Data Landscape (e.g. Data Mesh). Templates help establish a standard across the organization. This standard leads to easier understanding, management and maintenance of components. Templates provide a predefined structure so that developers don't have to start from scratch each time, which leads to faster development and allows them to focus on other aspects, such as testing and business logic.
 
-For more information, please refer to the [official documentation](https://docs.witboost.com/docs/p1_user/p6_advanced/p6_1_templates/#getting-started).
+For more information, please refer to the [official documentation](https://docs.witboost.com/docs/data-teams/p6_advanced/p6_1_templates/).
 
 ### Available Templates
 
