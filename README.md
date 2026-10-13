@@ -193,9 +193,9 @@ You can learn more about how Data Catalog plugins fit in the broader picture [he
 | <img src="./docs/img/atlan.png" width="100">        | Data Catalog Plugin | [Atlan Data Catalog Plugin](https://github.com/agile-lab-dev/atlan-data-catalog-plugin)                        | Data Catalog - Atlan        |       |
 | <img src="./docs/img/collibra.png" width="100">     | Data Catalog Plugin | [Collibra Data Catalog Plugin - Java](https://github.com/agile-lab-dev/witboost-collibra-data-catalog-plugin)         | Data Catalog - Collibra     |       |
 | <img src="./docs/img/collibra.png" width="100">     | Data Catalog Plugin | [Collibra Data Catalog Plugin - Python](https://github.com/agile-lab-dev/witboost-collibra-python-data-catalog-plugin)         | Data Catalog - Collibra     |       |
-| <img src="./docs/img/informatica.png" width="100">  | Data Catalog Plugin | [Informatica Data Catalog Plugin](https://github.com/agile-lab-dev/informatica-data-catalog-plugin)              | Data Catalog - Informatica  |       |
+| <div align="center"><img src="./docs/img/informatica.png" width="40"></div> | Data Catalog Plugin | [Informatica Data Catalog Plugin](https://github.com/agile-lab-dev/informatica-data-catalog-plugin)              | Data Catalog - Informatica  |       |
 | <img src="./docs/img/openmetadata.png" width="100"> | Data Catalog Plugin | [OpenMetadata Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-openmetadata-data-catalog-plugin) | Data Catalog - OpenMetadata |       |
-| <img src="./docs/img/purview.png" width="100">      | Data Catalog Plugin | [Purview Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-purview-data-catalog-plugin)           | Data Catalog - Purview      |       |
+| <div align="center"><img src="./docs/img/purview.png" width="40"></div> | Data Catalog Plugin | [Purview Data Catalog Plugin](https://github.com/agile-lab-dev/witboost-purview-data-catalog-plugin)           | Data Catalog - Purview      |       |
 
 
 <br/>
